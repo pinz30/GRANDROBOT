@@ -26,7 +26,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Halo, Namaku adalah {}!**
+**Halo, Namaku adalah ꜱʜᴀᴅᴏᴡ ᴀꜱꜱɪꜱᴛᴀɴᴛ!**
 Saya adalah bot manajemen grup ** SUPERB **.
 Anda dapat menemukan daftar perintah yang tersedia dengan mengetik /help.
 
