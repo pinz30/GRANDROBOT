@@ -143,7 +143,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Pembuat",
                                                                        url="t.me/coklintoud")],
-                                                                                   [InlineKeyboardButton(text="TAMBAHKAN ꜱʜᴀᴅᴏᴡ ᴀꜱꜱɪꜱᴛᴀɴᴛ KE GRUP ANDA
+                                                                                   [InlineKeyboardButton(text="TAMBAHKAN ꜱʜᴀᴅᴏᴡ ᴀꜱꜱɪꜱᴛᴀɴᴛ KE GRUP ANDA",
 ",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Support",
