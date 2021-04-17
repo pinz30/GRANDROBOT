@@ -144,7 +144,6 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    InlineKeyboardButton(text="Pembuat",
                                                                        url="t.me/coklintoud")],
                                                                                    [InlineKeyboardButton(text="TAMBAHKAN ꜱʜᴀᴅᴏᴡ ᴀꜱꜱɪꜱᴛᴀɴᴛ KE GRUP ANDA",
-",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Support",
                                                                        url="t.me/xthunderlol")
