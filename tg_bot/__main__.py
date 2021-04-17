@@ -26,23 +26,23 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is {}!** 
-I am an **SUPERB**  group management bot.
-You can find the list of available commands with /help.
+**Halo, Namaku adalah {}!**
+Saya adalah bot manajemen grup ** SUPERB **.
+Anda dapat menemukan daftar perintah yang tersedia dengan mengetik /help.
 
 """
 
 HELP_STRINGS = """
 
-Hello! my name *{}*.
+Halo! namaku *{}*.
 
 *Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
+ - /start: Memulai Bot
+ - /help: PM's Anda pesan ini.
+ - /help <module name>: PM's Tentang Module Itu.
  - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
+   - in PM: Akan Mengirimkan pengaturan Anda untuk semua yang didukung modules.
+   - in a group: akan mengarahkan Anda ke pm, dengan semua pengaturan obrolan itu.
 
 
 {}
@@ -139,11 +139,9 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Help",
-                                                                       callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Pembuat",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Pembuat",
                                                                        url="t.me/coklintoud")],
-                                                                                   [InlineKeyboardButton(text="TAMBAHKAN ꜱʜᴀᴅᴏᴡ ᴀꜱꜱɪꜱᴛᴀɴᴛ KE GRUP ANDA",
+                                                                                   [InlineKeyboardButton(text="Tambahkan Ke Group",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Support",
                                                                        url="t.me/xthunderlol")
