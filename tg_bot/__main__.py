@@ -27,14 +27,14 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Halo, Namaku adalah sʏɴᴛʀᴏꜰᴏs ᴀssɪsᴛᴀɴᴛ!**
-Saya adalah bot manajemen grup.
+Saya adalah bot assistant grup.
 Anda dapat menemukan daftar perintah yang tersedia dengan mengetik /help.
 
 """
 
 HELP_STRINGS = """
 
-Halo! namaku *{SYNTROFOS ASSISTANT}*.
+Halo! namaku *{}*.
 
 *Main* commands available:
  - /start: Memulai Bot
