@@ -49,7 +49,7 @@ Halo! namaku *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/aksdasnoasdkla-04-17"
+TECHNO_IMG = "https://telegra.ph/file/84b2017bc2f3c90f2e61c.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -140,7 +140,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Pembuat",
-                                                                       url="t.me/coklintoud")],
+                                                                       url="t.me/nakngennnnnnnn")],
                                                                                    [InlineKeyboardButton(text="Tambahkan Ke Group",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Support",
