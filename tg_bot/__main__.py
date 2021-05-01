@@ -34,7 +34,7 @@ Anda dapat menemukan daftar perintah yang tersedia dengan mengetik /help.
 
 HELP_STRINGS = """
 
-Halo! namaku *{sʏɴᴛʀᴏꜰᴏs ᴀssɪsᴛᴀɴᴛ}*.
+Halo! namaku *{SYNTROFOS ASSISTANT}*.
 
 *Main* commands available:
  - /start: Memulai Bot
