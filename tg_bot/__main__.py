@@ -26,10 +26,10 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Halo, Namaku adalah tante gabut**
+**✨Halo, Namaku adalah tante gabut✨**
 Saya adalah bot assistant grup, yang dibuat untuk menjaga grub kalian dari om cabul
 Saya dibuat oleh keponakan saya karena gabut
-Anda dapat menemukan daftar perintah yang tersedia dengan mengetik /help.
+Lihat saja fitur tante yang seksi dengan /help.
 
 """
 
@@ -50,7 +50,7 @@ Halo! namaku *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/b883be4e622219d76613a.jpg"
+TECHNO_IMG = "https://telegra.ph/file/2d12c5acaf3579e6cacdf.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -140,11 +140,11 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Pembuat",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⚡Owner⚡",
                                                                        url="t.me/skiditod")],
-                                                                                   [InlineKeyboardButton(text="Tambahkan Ke Group",
+                                                                                   [InlineKeyboardButton(text="❗Tambahkan Ke Group❗",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="official grub",
+                                                                                   InlineKeyboardButton(text="📌official grub📌",
                                                                        url="t.me/beergabutria")
                                                                                  ]]))
 
