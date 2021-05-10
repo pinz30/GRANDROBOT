@@ -26,8 +26,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Halo, Namaku adalah sʏɴᴛʀᴏꜰᴏs ᴀssɪsᴛᴀɴᴛ!**
-Saya adalah bot assistant grup.
+**Halo, Namaku adalah Tante Gabut**
+Saya adalah bot assistant grup, ✨saya dibuat dan di program untuk menjaga grub kalian
+dari serangan om om cabul✨
 Anda dapat menemukan daftar perintah yang tersedia dengan mengetik /help.
 
 """
@@ -49,7 +50,7 @@ Halo! namaku *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/b883be4e622219d76613a.jpg"
+TECHNO_IMG = "https://telegra.ph/file/2d12c5acaf3579e6cacdf.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -139,12 +140,12 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Pembuat",
-                                                                       url="t.me/nakngennnnnnnn")],
-                                                                                   [InlineKeyboardButton(text="Tambahkan Ke Group",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⚡Owner⚡",
+                                                                       url="t.me/skiditod")],
+                                                                                   [InlineKeyboardButton(text="❗Tambahkan Ke Group❗",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Support",
-                                                                       url="t.me/thissyntrofosarea")
+                                                                                   InlineKeyboardButton(text="📌Official Grub📌",
+                                                                       url="t.me/beergabutria")
                                                                                  ]]))
 
     else:
