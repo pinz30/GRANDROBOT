@@ -26,8 +26,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Halo, Namaku adalah sʏɴᴛʀᴏꜰᴏs ᴀssɪsᴛᴀɴᴛ!**
-Saya adalah bot assistant grup.
+**Halo, Namaku adalah tante gabut**
+Saya adalah bot assistant grup, yang dibuat untuk menjaga grub kalian dari om cabul
+Saya dibuat oleh keponakan saya karena gabut
 Anda dapat menemukan daftar perintah yang tersedia dengan mengetik /help.
 
 """
@@ -140,11 +141,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Pembuat",
-                                                                       url="t.me/nakngennnnnnnn")],
+                                                                       url="t.me/skiditod")],
                                                                                    [InlineKeyboardButton(text="Tambahkan Ke Group",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Support",
-                                                                       url="t.me/thissyntrofosarea")
+                                                                                   InlineKeyboardButton(text="official grub",
+                                                                       url="t.me/beergabutria")
                                                                                  ]]))
 
     else:
