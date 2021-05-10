@@ -142,7 +142,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⚡Owner⚡",
                                                                        url="t.me/skiditod")],
-                                                                                   [InlineKeyboardButton(text="❗Tambahkan Ke Group❗",
+                                                                                   [InlineKeyboardButton(text="❗Tambahkan Tante❗",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="📌official grub📌",
                                                                        url="t.me/beergabutria")
