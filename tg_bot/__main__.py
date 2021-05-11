@@ -27,7 +27,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **✨Halo, Namaku adalah tante gabut✨**
-Saya adalah bot assistant grup, yang dibuat untuk menjaga grub kalian dari om cabul
+Saya adalah bot assistant grup
+yang dibuat untuk menjaga grub kalian dari om cabul
 Saya dibuat oleh keponakan saya karena gabut
 Lihat saja fitur tante yang seksi dengan /help.
 
