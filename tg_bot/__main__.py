@@ -26,7 +26,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hi {from_user.first_name} , Nama saya Tante Gabut !**
+**Hi sayang, Nama saya Tante Gabut !**
 Saya adalah robot pintar yang dibuat khusus untuk menjaga dan meramaikan grupchat. 
 
 Tambahkan saya ke grupmu dan atur saya sebagai Admin (Edit -> Admins -> tambahkan admin) dan biarkan saya mengguncang grupmu!
