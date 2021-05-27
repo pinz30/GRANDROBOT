@@ -33,7 +33,7 @@ Tambahkan saya ke grupmu dan atur saya sebagai Admin (Edit -> Admins -> tambahka
 
 Saya hanya robot, tapi kalau mau mutualan skuylaa xixixi
 
-▪Managed with love by: [Pin⚡](https://t.me/skiditod)
+▪Managed with love by: [Pin⚡](https://instagram.com/sml.sptr)
 
 Tekan /help untuk melihat daftar fitur saya.
 
@@ -146,12 +146,12 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⚡Instagram Owner⚡",
-                                                                       url="https://instagram.com/sml.sptr?igshid=11jgb6dfwt38y")],
-                                                                                   [InlineKeyboardButton(text="🌻Tambahkan Tante🌻",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="📌 Official Group📌",
+                                                                       url="https://t.me/beergabutria")],
+                                                                                   [InlineKeyboardButton(text="➕Tambahkan Tante➕",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="📌official grub📌",
-                                                                       url="t.me/beergabutria")
+                                                                                   InlineKeyboardButton(text="📝Info Bot📝",
+                                                                       url="t.me/InfoPin")
                                                                                  ]]))
 
     else:
