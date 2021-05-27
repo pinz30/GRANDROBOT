@@ -1,11 +1,11 @@
 # GRAND OFFICIAL
 
-DEPLOY HERE - [GRAND OFFICIAL](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Faldoaprilyan3%2FGRANDROBOT&template=https%3A%2F%2Fgithub.com%2Faldoaprilyan3%2FGRANDROBOT)
+DEPLOY HERE - [GRAND OFFICIAL](https://github.com/pinz30/GRANDROBOT)
 [.](https://heroku.com/deploy)
-Credits - [LEGEND X](https://t.me/legendx22)
+Credits - [Pin](https://t.me/skiditod)
 
 # TELEGRAM
-Check me on [TELEGRAM](https://t.me/grand50_bot)
+Check me on [TELEGRAM](https://t.me/beergabutria)
 # TUTORIAL [OFFICIAL VIDEO](https://youtu.be/JK9cLTDZUR0)
 
 <details>
