@@ -6,7 +6,7 @@ Credits - [Pin](https://t.me/skiditod)
 
 # TELEGRAM
 official grub [TELEGRAM](https://t.me/beergabutria)
-# TUTORIAL [OFFICIAL VIDEO](https://youtu.be/JK9cLTDZUR0)
+# TUTORIAL OFFICIAL [VIDEO](https://youtu.be/JK9cLTDZUR0)
 
 # CONTOH BOT
 Check di [TANTE ANDREANA](https://t.me/pinznzbot)
