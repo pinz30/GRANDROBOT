@@ -1,12 +1,15 @@
 # PIN OFFICIAL
 
-DEPLOY HERE - [Deploy Bot](https://github.com/pinz30/GRANDROBOT)
+DEPLOY DISINI - [Deploy Bot](https://github.com/pinz30/GRANDROBOT)
 [.](https://heroku.com/deploy)
 Credits - [Pin](https://t.me/skiditod)
 
 # TELEGRAM
-Check me on [TELEGRAM](https://t.me/beergabutria)
+official grub [TELEGRAM](https://t.me/beergabutria)
 # TUTORIAL [OFFICIAL VIDEO](https://youtu.be/JK9cLTDZUR0)
+
+# CONTOH BOT
+Check di [TANTE ANDREANA](https://t.me/pinznzbot)
 
 <details>
 <summary> CREDITS </summary>
