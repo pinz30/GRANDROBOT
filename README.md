@@ -1,6 +1,6 @@
 # PIN OFFICIAL
 
-DEPLOY DISINI - [Deploy Bot]("https://heroku.com/deploy?template=https://github.com/pinz30/GRANDROBOT")
+DEPLOY DISINI - [Deploy Bot]("https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Faldoaprilyan3%2FGRANDROBOT&template=https%3A%2F%2Fgithub.com%2Faldoaprilyan3%2FGRANDROBOT")
 [.](https://heroku.com/deploy)
 Credits - [Pin](https://t.me/skiditod)
 
