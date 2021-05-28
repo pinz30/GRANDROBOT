@@ -1,4 +1,4 @@
-# Pin Official
+# PIN OFFICIAL
 
 DEPLOY HERE - [Deploy Bot](https://github.com/pinz30/GRANDROBOT)
 [.](https://heroku.com/deploy)
