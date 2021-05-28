@@ -1,6 +1,6 @@
-# GRAND OFFICIAL
+# Pin Official
 
-DEPLOY HERE - [GRAND OFFICIAL](https://github.com/pinz30/GRANDROBOT)
+DEPLOY HERE - [Deploy Bot](https://github.com/pinz30/GRANDROBOT)
 [.](https://heroku.com/deploy)
 Credits - [Pin](https://t.me/skiditod)
 
