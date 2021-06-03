@@ -146,12 +146,12 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="📌 Official Group📌",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="👾Official Group",
                                                                        url="https://t.me/beergabutria")],
-                                                                                   [InlineKeyboardButton(text="➕Tambahkan Tante➕",
+                                                                                   [InlineKeyboardButton(text="➕Tambahkan Tante",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="📝Info Bot📝",
-                                                                       url="t.me/InfoPin")
+                                                                                   InlineKeyboardButton(text="🤴Owner",
+                                                                       url="https://t.me/skiditod")
                                                                                  ]]))
 
     else:
