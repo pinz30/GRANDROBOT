@@ -26,7 +26,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hi {}, Nama saya {} !**
+**Hi👋 {}, Nama saya {} !**
 Saya adalah robot pintar yang dibuat khusus untuk menjaga dan meramaikan grupchat. 
 
 Tambahkan saya ke grupmu dan atur saya sebagai Admin (Edit -> Admins -> tambahkan admin) dan biarkan saya mengguncang grupmu!
@@ -148,7 +148,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="👾Official Group👾",
                                                                        url="https://t.me/beergabutria")],
-                                                                                   [InlineKeyboardButton(text="➕Tambahkan Tante➕",
+                                                                                   [InlineKeyboardButton(text="➕Tambahkan Bot➕",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🤴Owner🤴",
                                                                        url="https://t.me/skiditod")
